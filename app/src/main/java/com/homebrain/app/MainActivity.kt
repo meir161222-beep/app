@@ -140,7 +140,7 @@ class MainActivity : Activity() {
         search = EditText(this).apply {
             hint = "חיפוש פריט או קטגוריה"
             textSize = 14f
-            singleLine = true
+            isSingleLine = true
             setTextColor(ink)
             setHintTextColor(muted)
             background = panel(Color.WHITE, 14, Color.rgb(226, 232, 230))
